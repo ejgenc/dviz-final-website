@@ -1,0 +1,29 @@
+{
+    "name": "dviz-final-website",
+    "version": "1.0.0",
+    "description": "Created for Data Visualization final project",
+    "main": "src/server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon",
+        "app": "node src/server.js"
+    },
+    "contributors": [
+        "Amy-Caroline Downing",
+        "Eren Janberk Genç",
+        "Ruiqi Wang",
+        "Mariko Matsuzaki"
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "bootstrap": "^5.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15",
+        "sass": "1.50"
+    },
+    "nodemonConfig": {
+        "verbose": true,
+        "watch": ["src", "node_modules", "package.json", "package-lock.json"]
+    }
+}
